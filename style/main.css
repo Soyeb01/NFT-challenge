@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'outfit';
+  background-color: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-hero {
+  max-width: 220px;
+  max-height: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-top: 120px;
+  background-color: #14253d;
+  border-radius: 14px;
+  -webkit-box-shadow: 10px 18px 10px 18px #0a1424;
+          box-shadow: 10px 18px 10px 18px #0a1424;
+  padding: 16px;
+}
+
+.trans {
+  width: 100%;
+  height: 14em;
+  position: relative;
+}
+
+.img-equil {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.icn-view {
+  display: none;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: cyan;
+  opacity: 0.5;
+  border-radius: 6px;
+}
+
+.trans:hover .overlay {
+  display: block;
+}
+
+.trans:hover .icn-view {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+}
+
+.clk-eth {
+  font-size: 1em;
+  color: white;
+}
+
+.clk-eth:hover {
+  color: cyan;
+}
+
+.c {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.para {
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #8bacda;
+}
+
+.sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #8bacda;
+}
+
+.leth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.leth p {
+  font-size: 11px;
+  color: cyan;
+  padding-left: 6px;
+}
+
+.icn-eth {
+  width: 6px;
+  height: 12px;
+  padding-top: 2px;
+}
+
+.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.time p {
+  font-size: 12px;
+  color: #8bacda;
+  padding-left: 6px;
+}
+
+.icn-clock {
+  width: 12px;
+  height: 12px;
+  padding-top: 2px;
+}
+
+.crtr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  width: 80%;
+}
+
+.crtr .avatar {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.crtr p {
+  font-size: 12px;
+  color: #8bacda;
+  position: relative;
+  top: 2px;
+  bottom: 0px;
+}
+
+.crtr span {
+  color: white;
+}
+
+.crtr span:hover {
+  color: cyan;
+}
+
+.attribution {
+  color: white;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: #8bacda;
+}
+/*# sourceMappingURL=main.css.map */

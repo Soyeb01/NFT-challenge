@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'outfit';
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-hero{
+    max-width: 220px;
+    max-height: 390px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 14px;
+    box-shadow: 10px 18px 10px 18px hsl(217, 57%, 9%);
+    padding: 16px;
+}
+
+.trans{
+    width: 100%;
+    height: 14em;
+    position: relative;
+}
+
+.img-equil{
+     width: 100%;
+     height: 100%;
+     border-radius: 6px;
+}
+
+.icn-view {
+    display: none;
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: cyan;
+    opacity: 0.5;
+    border-radius: 6px;
+}
+
+
+.trans:hover {
+    .overlay{
+        display: block;
+    }
+
+    .icn-view{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.clk-eth{
+     font-size: 1em;
+     color: white;
+
+     &:hover{
+         color: cyan;
+    }
+}
+
+.c{
+     padding-bottom: 10px;
+     padding-top: 10px;
+}
+
+.para{
+     font-size: 12px;
+     line-height: 1.4em;
+     color: hsl(215, 51%, 70%);
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.leth{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 11px;
+        color: cyan;
+        padding-left: 6px;
+    }
+}
+
+.icn-eth{
+    width: 6px;
+    height: 12px;
+    padding-top: 2px;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 12px;
+        color: hsl(215, 51%, 70%);
+        padding-left: 6px;
+    }
+}
+
+.icn-clock{
+    width: 12px;
+    height: 12px;
+    padding-top: 2px;
+}
+
+
+.crtr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    width: 80%;
+    
+    .avatar{
+        width: 20px;
+        height: 20px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    p{
+        font-size: 12px;
+        color: #8bacda;
+        position: relative;
+        top: 2px;
+        bottom: 0px;
+    }
+
+    span{
+        color: white;
+
+        &:hover{
+            color: cyan;
+        }
+    }
+}
+
+.attribution{
+    color: white;
+    margin-top: 50px;
+
+    a{
+        color: #8bacda;
+    }
+}
+
+
