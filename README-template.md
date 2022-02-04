@@ -24,7 +24,7 @@ This challenge is made by using HTML and CSS. And it makes me use Flexbox by  wh
 ### Links
 
 - Solution URL: https://github.com/Soyeb01/NFT-challenge.git
-- Live Site URL: 
+- Live Site URL: https://nft-challenge-using-html-css.netlify.app
 
 ## My process
 
